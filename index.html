@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fimathe Indicador</title>
+<meta name="description" content="Indicador pessoal de análise técnica multi-ativo, multi-timeframe, com dados reais.">
+<meta name="theme-color" content="#0B0F14">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Fimathe">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">FA</div><div><div class="brand-name">Fimathe Indicador</div><div class="brand-sub">uso pessoal · dados reais</div></div></div>
+    <nav id="navDesktop"></nav>
+    <div class="sidebar-foot" id="apiStatusSide"></div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <h1 id="pageTitle">Indicador</h1>
+      <div class="topbar-right">
+        <button class="icon-btn" onclick="toggleTheme()" title="Alternar tema">🌓</button>
+      </div>
+    </div>
+    <div class="content" id="content"></div>
+  </div>
+</div>
+<nav class="bottomnav" id="navMobile"></nav>
+
+<script src="app.js"></script>
+</body>
+</html>
